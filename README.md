@@ -5,7 +5,9 @@
 
 ## Overview
 
-This MVP implements a computational analysis pipeline for energy-stepped mass spectra of sputtered carbon clusters (C₁–C₄) from pristine and damaged carbon nanotubes. It demonstrates key analytical techniques from the paper:
+This MVP implements a computational analysis pipeline for energy-stepped mass spectra of sputtered carbon clusters (C₁–C₄) from pristine and damaged carbon nanotubes. It provides a tool for analyzing how carbon nanotubes break apart into smaller clusters when hit by high-energy ions. It calculates key metrics, such as cluster yields, local heat levels (thermal spikes), and statistical patterns, to help understand how nanotubes are damaged. This project is designed for researchers and materials scientists who need to process experimental or simulated data from nanotechnology studies.
+
+It demonstrates key analytical techniques from the paper:
 
 1. **Sputtering Yield Computation** — absolute and normalized yields Yₓ(E) and Nₓ(E)
 2. **Probability Distributions** — p(Cₓ|E) for cluster formation at each ion energy
